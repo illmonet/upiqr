@@ -1,0 +1,91 @@
+/* CSS (style.css) */
+body {
+  font-family: "Arial", sans-serif;
+  /* Change to your preferred font face */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+  /* Change to your preferred background color */
+}
+
+.container {
+  max-width: 600px;
+}
+
+.border-2px-blue {
+  border: 1px solid blue;
+  padding: 20px;
+  text-align: center;
+  /* Add this line to center-align the content inside the blue box */
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner h3 {
+  font-family: "Tahoma", sans-serif;
+  /* Change to your preferred font face for the banner heading */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  font-family: "Tahoma", sans-serif;
+  /* Change to your preferred font face for the form controls */
+}
+
+.btn {
+  font-family: "Tahoma", sans-serif;
+  /* Change to your preferred font face for the buttons */
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center_top {
+  color: blue;
+}
+
+.text-result {
+  font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+  /* Add this line to adjust the top and bottom margins */
+}
+
+.text-result1 {
+  font-size: 20px;
+  color: blue;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  /* Add this line to adjust the top and bottom margins */
+}
+
+#qrcode {
+  margin: 1px 0;
+  /* Add this line to adjust the top and bottom margins */
+}
+
+.footer-text {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#qrcode canvas {
+  border: none;
+}
+
+.text-center mt-5 {
+  border: 1px solid blue;
+}
