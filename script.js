@@ -1,5 +1,8 @@
 function clearForm() {
     document.getElementById("myForm").reset();
+    document.getElementById("submissionName").textContent = "";
+    document.getElementById("submissionUpiId").textContent = "";
+    document.getElementById("qrcode").innerHTML = "";
   }
   
   document.getElementById("myForm").addEventListener("submit", function (event) {
